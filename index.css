@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=cursive');
 
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/planet.jpg") center center;
+    background:linear-gradient(0deg,rgba(255, 209, 209, 0.5),rgba(255, 213, 213, 0.5)),url("assets/planet.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(80, 89, 80);
+    background:rgb(238, 255, 238);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(32, 92, 221);
+    background:rgb(255, 255, 255);
 }
 .box2 {
-    background:rgb(35, 169, 222);
+    background:rgb(255, 204, 244);
     margin-left:-5px;
 }
 #menu {
@@ -317,7 +317,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(255, 255, 255) ;
 }
 #particles-js {
     position:fixed;
